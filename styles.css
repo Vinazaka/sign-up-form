@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Norse";
+  src: url("./fonts/Norsebold.otf") format("opentype");
+  font-weight: bold;
+  font-display: swap;
+}
+
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -62,6 +69,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .image {
     display: flex;
+    position: relative;
+}
+
+.odin-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  top:25%;
+  color: white;
+  background-color: rgb(0 0 0 / 0.5);
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.odin-logo h1 {
+  font-family: "Norse", serif;
+  font-size: 8rem;
+}
+
+.logo-img {
+  height: 10rem;
+  width: auto;
 }
 
 .content-container {
