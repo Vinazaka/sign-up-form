@@ -108,6 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 .content-container {
     background-color: #f9fafb;
     flex: 1;
+    padding-top: 9.5rem; 
 }
 
 .long-sentence {
@@ -115,12 +116,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-p {
-  padding: 4rem 0 0 5rem;
+  padding: 0 0 0 3rem;
 }
 
 .form-container {
   margin-top: 2rem;
-  padding: 1rem 0 1rem 5rem;
+  padding: 1rem 0 1rem 3rem;
   background-color: #ffffff;
 }
 
