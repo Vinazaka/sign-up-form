@@ -123,6 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 2rem;
   padding: 1rem 0 1rem 3rem;
   background-color: #ffffff;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
 }
 
 .form-header {
@@ -143,4 +144,39 @@ label {
 
 input {
   width: 90%;
+  border: 1px solid #E5E7EB;
+  border-radius: 0.25rem;
+  padding: 0.3rem 0.6rem;
+}
+
+input:focus {
+  border-color: #4b7bec;
+  box-shadow: 0 0 4px rgb(75 123 236 / 0.4);
+  outline: none;
+}
+
+input[type="password"]:user-invalid {
+  border-color: red;
+}
+
+.create-account-btn {
+  background-color: #596D48;
+  color: white;
+  font-weight: bold;
+  margin: 3rem 0 1rem 3rem;
+  padding: 0.75rem 2.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgb(0 0 0 / 0.2);
+}
+
+.log-in {
+  font-size: 1.15rem;
+  margin: 1rem 0 1rem 3rem;
+}
+
+.log-in a {
+  text-decoration: none;
+  color: #596D48;
 }
